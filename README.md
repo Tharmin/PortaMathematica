@@ -6,3 +6,5 @@ PortaMathematica is a free, open-source calculator for high-school level mathema
 - Calculus
 - Trigonometry
 and more!
+
+Powered by the PathOwOgen Empire
