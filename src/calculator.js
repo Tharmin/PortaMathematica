@@ -36,6 +36,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         
         case "light":
             document.getElementsByClassName("stylesheet")[0].href="src/styleLightDesktop.css"
+            break;
     }
 }   
 
