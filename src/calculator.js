@@ -28,6 +28,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
     }
 } else {
+    console.log("Desktop browser detected - Switching CSS file");
     switch (settings.theme) {
 
         case "dark":
