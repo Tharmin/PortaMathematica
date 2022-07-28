@@ -5,8 +5,8 @@ console.log("hewwo! we will initialize youw session now! UwU")
 //check for config files
 if (localStorage.getItem("dataFound") == null) {
     //initialize config
-    localStorage.setItem("dataFound", true)
-    localStorage.setItem("settings"), {"theme": "dark"} 
+    localStorage.setItem("dataFound", true);
+    localStorage.setItem("settings"), {"theme": "dark"};
 }
 //parse config file
 const settings = JSON.parse(localStorage.getItem("settings"));
