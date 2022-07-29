@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a:link {
+    color: #000000;
+    text-decoration:none;
+}
+a:hover {
+    color: #ffffff;
+    transition: .1s;
+}
+html, body {
+    height: 100%;
+    font-family: Quicksand, "Quicksand", Arial, Sans-Serif;
+    background-color: #2F4F4F;
+}
