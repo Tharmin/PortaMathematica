@@ -9,8 +9,9 @@ if (localStorage.getItem("dataFound") == null) {
     localStorage.setItem("settings"), {"theme": "dark", "music": "false", "sfx": "true", "decimalPlaces": "10"};
 }
 //parse config file
-let clientConfig = JSON.parse(JSON.parse(localStorage.getItem("settings")));
-console.log(clientConfig);
+const settingsJSON = localStorage.getItem("settings");
+const clientConfig = JSON.parse("settingsJSON");
+console.log("Fetched clientConfig");
  
 /*
 if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
@@ -67,5 +68,5 @@ switch (clientConfig.theme) {
 
 //get constants and formulae
 const constants = JSON.parse(fetch("data/constants.json"));
-const formulae = JSOn.parse(fetch("data/formulae.json"));
+const formulae = JSON.parse(fetch("data/formulae.json"));
 console.log("success, you somehow got this far");
